@@ -1,15 +1,26 @@
-import userConfigImport from './next.user-config.mjs'
+const nextConfig = {
+  reactStrictMode: true,
 
-export default async function v0NextConfig() {
-  const userConfig = userConfigImport
+  images: {
+    domains: [
+      'images.unsplash.com',
+      'res.cloudinary.com',
+      'lh3.googleusercontent.com',
+    ],
+    unoptimized: true,
+  },
 
-  return {
-    ...userConfig,
-    distDir: '.next',
-
-    images: {
-      ...userConfig.images,
-      unoptimized: true,
+  experimental: {
+    serverActions: {
+      allowedOrigins: ['*.vusercontent.net'],
     },
-  }
+  },
+
+  logging: {
+    fetches: {
+      fullUrl: true,
+    },
+  },
 }
+
+export default nextConfig
