@@ -63,7 +63,7 @@ export function HeroSection() {
         <div className="container mx-auto px-4 lg:px-8 relative z-10 text-center lg:text-right">
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            احجز سيارتك خلال دقائق
+            احجز سيارتك خلال دقائق مع <span className="text-[#d42228]">S<span className="text-[#fbfaf6]">CAR</span></span>
           </h1>
 
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-xl mx-auto lg:mx-0">

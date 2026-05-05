@@ -90,7 +90,7 @@ export default function AboutPage() {
                 </h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    بدأت <span>Drive <span className="text-[#d42228]">Zone</span> </span> رحلتها بهدف واحد واضح: تقديم تجربة تأجير سيارات استثنائية تجمع بين الفخامة والراحة والأسعار التنافسية.
+                    بدأت <span className="text-[#d42228] text-[22px]">S<span className="text-[#101213]">car</span></span> رحلتها بهدف واحد واضح: تقديم تجربة تأجير سيارات استثنائية تجمع بين الفخامة والراحة والأسعار التنافسية.
                   </p>
                   <p>
                     منذ انطلاقنا، عملنا بجد على بناء أسطول متنوع من أفضل السيارات، وتطوير فريق محترف يضع رضا العميل في المقام الأول.
@@ -224,7 +224,7 @@ export default function AboutPage() {
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl font-bold text-primary mb-4">
-                انضم إلى عائلة <span>Drive <span className="text-[#d42228]">Zone</span> </span>
+                انضم إلى عائلة <span className="text-[#d42228]">S<span className="text-[#101213]">CAR</span></span>
               </h2>
               <p className="text-muted-foreground text-lg mb-8">
                 احجز سيارتك الآن واستمتع بتجربة قيادة لا تُنسى

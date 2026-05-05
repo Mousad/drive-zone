@@ -22,22 +22,22 @@ const features = [
 
 export function FeaturesSection() {
   return (
-   <section className="py-8 bg-secondary">
-  <div className="container mx-auto px-4 lg:px-8">
+   <section className="py-5 bg-secondary">
+  <div className="container mx-auto px-2 lg:px-8">
     
     <div className="grid grid-cols-2 gap-4">
 
       {features.map((feature, index) => (
         <div
-          key={index}
-          className={`
-            bg-card rounded-2xl p-8 text-center shadow-sm
-            ${index === 2 ? 'col-span-2 flex justify-center' : ''}
-          `}
-        >
-          <div className={`${index === 2 ? 'max-w-sm w-full' : ''}`}>
+  key={index}
+  className={`
+    bg-card rounded-xl p-5 text-center shadow-sm
+    ${index === 2 ? 'col-span-2 flex justify-center' : ''}
+  `}
+>
+      <div className={`${index === 2 ? 'max-w-sm w-full' : ''}`}>
 
-            <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-accent/10 flex items-center justify-center">
+            <div className="w-13 h-13 mx-auto mb-6 rounded-full bg-accent/10 flex items-center justify-center">
               <feature.icon className="w-8 h-8 text-accent" />
             </div>
 
@@ -45,9 +45,9 @@ export function FeaturesSection() {
               {feature.title}
             </h3>
 
-            <p className="text-muted-foreground leading-relaxed">
-              {feature.description}
-            </p>
+           <p className="text-muted-foreground leading-relaxed text-sm md:text-base max-w-prose mx-auto">
+  {feature.description}
+</p>
 
           </div>
         </div>

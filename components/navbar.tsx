@@ -26,13 +26,17 @@ export function Navbar() {
       <nav className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-15">
           {/* Logo */}
-        <Link href="/" className="flex flex-col leading-tight">
-  <span className="text-2xl font-bold text-[#2d5887]">
-   Drive<span className="text-xs text-[#d42228]">Zone </span>
-  </span>
-  
+          <Link href="/" className="flex items-center">
+  <Image
+    src="https://scar-auto-rental.com/wp-content/uploads/2026/04/logo__scar_page-0001-removebg-preview-1.webp"
+    alt="DriveZone Logo"
+    width={140}
+    height={70}
+    className="h-10 w-auto object-contain"
+    priority
+  />
 </Link>
-          {/* Desktop Navigation */}
+     {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-8">
             {navLinks.map((link) => (
               <Link

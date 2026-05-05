@@ -38,7 +38,7 @@ export function WhyChooseUs() {
             <div>
 
               <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
-                لماذا تختار <span>Drive <span className="text-[#d42228]">Zone</span> </span> 
+                لماذا تختار <span className="text-[#d42228]">S<span className="text-[#101213]">car</span></span> 
               </h2>
 
               <p className="text-muted-foreground text-lg mb-8 leading-relaxed">

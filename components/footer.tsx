@@ -17,7 +17,7 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <h3 className="text-2xl font-bold">
-             <span>Drive <span className="text-[#d42228]">Zone</span> </span>
+            <span className="text-[#d42228]">S<span className="text-[#101213]">CAR</span></span>
             </h3>
             <p className="text-primary-foreground/80 leading-relaxed">
               تجربة فاخرة لتأجير السيارات بأسعار واضحة وخدمة احترافية. نقدم أفضل السيارات بأعلى معايير الجودة.
