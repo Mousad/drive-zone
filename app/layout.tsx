@@ -10,7 +10,7 @@ const cairo = Cairo({
 })
 
 export const metadata: Metadata = {
-  title: 'Drive Zone ',
+  title: 'Contact Us AR – Scar',
   description: 'تجربة فاخرة لتأجير السيارات بأسعار واضحة وخدمة احترافية - Scar Auto Group',
   generator: '',
  

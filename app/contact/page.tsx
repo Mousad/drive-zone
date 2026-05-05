@@ -17,7 +17,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'الهاتف',
-    content: '01103907766',
+    content: '01055539598',
     href: 'tel:01103907766',
     dir: 'ltr',
   },
@@ -129,7 +129,8 @@ export default function ContactPage() {
                 {/* Google Map بدل Placeholder */}
                 <div className="mt-8 rounded-xl overflow-hidden border h-64">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2691.5658658999273!2d30.928188625605816!3d29.958537974967015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145857007ff15e27%3A0xf99e1a3e0520a9ea!2sDrive%20Zone!5e1!3m2!1sar!2seg!4v1777502200496!5m2!1sar!2seg"
+                    src="https://maps.google.com/maps?q=6th%20of%20October%20City%2C%20Westpoint%20Mall%2C%202nd%20Floor%2C%20Office%2011w&t=m&z=15&output=embed&iwloc=near"
+                    
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}

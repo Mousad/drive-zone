@@ -119,3 +119,26 @@ html {
   width: max-content;
   animation: marquee 25s linear infinite;
 }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-float {
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(20deg); }
+  50% { transform: rotate(-10deg); }
+  75% { transform: rotate(20deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.animate-wave {
+  animation: wave 1.5s infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
